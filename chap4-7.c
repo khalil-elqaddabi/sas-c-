@@ -7,8 +7,7 @@ int main(){
     q=x/20;
     w=(x%20)/10;
     e=(x%10)/5;
-    r=(x%5)93
-    ;
+    r=(x%5);
     printf("Billets de 20$ : %d\n",q);
     printf("Billets de 10$ : %d\n",w);
     printf("Billets de 05$ : %d\n",e);

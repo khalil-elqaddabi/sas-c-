@@ -16,8 +16,7 @@ int main(){
 
     for(int i=0;i<len;i++){
         
-        if(toupper(word[i]) == 'A' || toupper(word[i])== 'E' || toupper(word[i]) == 'I' ||toupper(word[i]) == 'N' || toupper(word[i])== 'O' || toupper(word[i])== 'R' || 
-            toupper(word[i]) == 'S' ||toupper(word[i]) == 'T' ||toupper(word[i]) == 'U' ||toupper(word[i]) == 'L' )
+        if(toupper(word[i]) == 'A' || toupper(word[i])== 'E' || toupper(word[i]) == 'I' ||toupper(word[i]) == 'N' || toupper(word[i])== 'O' || toupper(word[i])== 'R' || toupper(word[i]) == 'S' ||toupper(word[i]) == 'T' ||toupper(word[i]) == 'U' ||toupper(word[i]) == 'L' )
                 Valeur_Scrabble += 1;
            
         else if(toupper(word[i])== 'D' || toupper(word[i])== 'G' )
